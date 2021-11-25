@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 4.375rem;
+  margin: 10px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #66BFBF;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+}
+
+hr {
+  width: 4%;
+  border: dotted 6px #D1D1D1;
+  border-bottom: none;
+}
+
+.title1 {
+  margin-top: 10px;
+}
+
+.top {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.T-cloud {
+  position: absolute;
+  right: 650px;
+  top: 30px;
+}
+
+.B-cloud {
+  position: absolute;
+  left: 650px;
+  bottom: 300px;
+}
+
+.profile-img {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.design-title {
+  margin-top: 65px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto auto 30px auto;
+  text-align: left;
+  line-height: 2;
+  overflow: auto;
+}
+
+.computer-img {
+  width: 30%;
+  float: left;
+}
+
+.xrp-img {
+  width: 25%;
+  float: right;
+}
+
+.profile {
+  padding-bottom: 30px;
+}
+
+.skill-title {
+  padding-top: 10px
+}
+
+.end-comment {
+  color: inherit;
+  padding-bottom: 10px;
+}
+
+.btn {
+  background: #11cdd4;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #11cdd4), color-stop(1, #11999e));
+  background: -moz-linear-gradient(center top, #11cdd4 5%, #11999e 100%);
+  background: -ms-linear-gradient(center top, #11cdd4 5%, #11999e 100%);
+  background: -o-linear-gradient(center top, #11cdd4 5%, #11999e 100%);
+  background: -webkit-linear-gradient(center top, #11cdd4 5%, #11999e 100%);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cd;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #30e3cd), color-stop(1, #2bc4ad));
+  background: -moz-linear-gradient(center top, #30e3cd 5%, #2bc4ad 100%);
+  background: -ms-linear-gradient(center top, #30e3cd 5%, #2bc4ad 100%);
+  background: -o-linear-gradient(center top, #30e3cd 5%, #2bc4ad 100%);
+  background: -webkit-linear-gradient(center top, #30e3cd 5%, #2bc4ad 100%);
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #11999E;
+  text-decoration: none;
+}
+
+.bottom-container {
+  padding-top: 20px;
+  background-color: #E4F9F5;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.copy-right {
+  color: grey;
+}
+
+a {
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
